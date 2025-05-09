@@ -1,7 +1,7 @@
 const AppSidebar = () => {
     return (
         <div>
-            App Side bar
+            AppSidebar
         </div>
     );
 };
