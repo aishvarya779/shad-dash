@@ -5,10 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="h-screen flex items-center justify-center">
-      <Button variant="destructive" className="rounded-full text-dash-primary" size="lg">
-        <CirclePlus />
-        Click me
-      </Button>
+      <h2>Welcome Shad Dash</h2>
     </div>
   );
 }

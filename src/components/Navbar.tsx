@@ -6,13 +6,17 @@ import { Button } from "@/components/ui/button"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem } from "@/components/ui/dropdown-menu"
 import { useTheme } from 'next-themes';
+import { SidebarTrigger, useSidebar } from './ui/sidebar';
 
 const Navbar = () => {
     const { theme, setTheme } = useTheme();
+    const { toggleSidebar } = useSidebar();
     return (
         <nav className="p-4 flex align-center justify-between">
             {/* LFT Side */}
-            collapseButton
+            <SidebarTrigger />
+            {/* <Button variant="outline" onClick={toggleSidebar}>Custom Click</Button> */}
+
             {/* Right Side */}
             <div className='flex items-center gap-4'>
                 <Link href="#">Dashboard</Link>

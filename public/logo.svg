@@ -1,0 +1,6 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="8" fill="#18181B"/>
+  <path d="M8 16C8 11.58 11.58 8 16 8C20.42 8 24 11.58 24 16C24 20.42 20.42 24 16 24C11.58 24 8 20.42 8 16Z" fill="#6366F1"/>
+  <path d="M12 16H20M16 12V20" stroke="#F1F5F9" stroke-width="2" stroke-linecap="round"/>
+  <text x="16" y="29" text-anchor="middle" font-size="6" fill="#F1F5F9" font-family="sans-serif" font-weight="bold">SD</text>
+</svg>
